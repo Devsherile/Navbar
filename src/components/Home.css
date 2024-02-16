@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 600px;
+    justify-content: space-around;
+    padding: 30px;
+}
+.h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+img{
+    width: 350px;
+    height: 400px;
+}

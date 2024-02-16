@@ -1,0 +1,17 @@
+#about{
+    display: flex;
+    /* justify-content: space-around; */
+    background: black;
+    color: white;
+    height: 600px;
+    padding-left: 100px;
+
+}
+#about h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.about{
+    width: 500px;
+    height: 350px;
+}
