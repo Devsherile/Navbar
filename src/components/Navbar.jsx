@@ -24,14 +24,10 @@ function Navbar() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="blog">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="about">Portfolio</a> 
-              <sup>new</sup>
-            </li>
-            <li>
-              <a href="contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
