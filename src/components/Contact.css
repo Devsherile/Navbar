@@ -2,21 +2,54 @@
   background: black;
   color: white;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  height: 100vh;
+  gap: 70px;
 }
-
-.title {
-  color: #333;
+.contact-info {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 50%;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 .contact {
+  background: white;
+  color: black;
+  height: 50%;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.contact h1 {
+  color: black;
+  margin-bottom: 5px;
+}
+.contact-info,
+.contact {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .form {
   margin-bottom: 20px;
+
 }
 
 form {
@@ -44,12 +77,7 @@ button:hover {
   background-color: #45a049;
 }
 
-.contact-info {
-  background-color: #f434;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+
 
 h1 {
   color: #333;
@@ -62,4 +90,5 @@ span {
 .social {
   display: flex;
   gap: 15px;
+  font-size: xx-large;
 }

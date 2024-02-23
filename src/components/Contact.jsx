@@ -15,7 +15,8 @@ function Contact() {
           </a>
         </p>
         <p>
-          <span>Phone:</span> <a href="tel:+254793721334"> +254 793 721 334 </a>
+          <span>Phone:</span>{" "}
+          <a href="tel:+254 793 721 334"> +254 793 721 334 </a>
         </p>
         <div className="social">
           <a href="https://github.com/" target="_blank" rel="noreferrer">
@@ -28,15 +29,13 @@ function Contact() {
       </div>
       <div className="contact">
         <h1 className="title">Contact Me</h1>
-        <div className="contact">
-          <div className="form">
-            <form action="submit">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <textarea placeholder="Message"></textarea>
-              <button type="submit">Send</button>
-            </form>
-          </div>
+        <div className="form">
+          <form action="submit">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
         </div>
       </div>
     </div>
