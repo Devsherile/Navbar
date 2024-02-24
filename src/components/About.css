@@ -1,62 +1,53 @@
-#about{
-    display: flex;
-    /* justify-content: space-around; */
-    background: black;
-    color: white;
-    height: 800px;
-    padding-left: 100px;
-
-}
-#about h1{
-    font-size: 50px;
-    font-weight: 700;
-}
-.about{
-    width: 500px;
-    height: 350px;
-}
-.content,
-.see{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-
-}
-.content .see {
-    font-size: 30px;
-    font-weight: 700;
+#about {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  color: white;
+  height: 650px;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
 }
 
-  .skills,
-  .experience,
-  .education {
-    color: #333;
-  }
-  
-  .skills {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .skills ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .skills li {
-    margin-bottom: 5px;
-    
-  }
-  ul li{
-    list-style-type: none;
-  }
-  
-  .experience,
-  .education {
-    margin-top: 20px;
-  }
-  
-  .experience p,
-  .education p {
-    margin: 10px 0;
-  }
+
+
+#content {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.content h1 {
+  font-size: 24px;
+  color: #007bff;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.skills,
+.education,
+.experience {
+  cursor: pointer;
+  margin-right: 20px; /* Add some space between the titles */
+  color: #007bff;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.skills:hover,
+.education:hover,
+.experience:hover {
+  text-decoration: underline;
+}
+
+/* Add this style to make titles flex in a row */
+.see {
+  display: flex;
+  flex-direction: column;
+}
+.section-titles {
+  /* margin-bottom: 20px; */
+  display: flex;
+  flex-direction: row;
+}

@@ -12,11 +12,11 @@ function Navbar() {
   return (
     <div>
       <nav>
-        <h1><span>S</span>HERILE</h1>
+        <h1>SHERILE</h1>
         <div>
           <ul id="navbar" className={clicked ? "navbar active" : "navbar"}>
             <li>
-              <a className="active" href="home">
+              <a className="active" href="/">
                 Home
               </a>
             </li>

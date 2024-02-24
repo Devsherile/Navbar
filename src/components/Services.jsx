@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import { CgWebsite } from "react-icons/cg";
+import { FaLaptopCode } from "react-icons/fa6";
 import { PiDeviceMobileFill } from "react-icons/pi";
 import { IoPlaySkipBackCircleSharp } from "react-icons/io5";
 function Services() {
@@ -9,7 +9,7 @@ function Services() {
       <h1 className="title">My Services</h1>
       <div className="services">
         <div className="web">
-          <CgWebsite />
+            <FaLaptopCode className="icon" />
           <h1>Web Development</h1>
           <p>
             I can help you build a website from scratch. I have experience
@@ -17,7 +17,8 @@ function Services() {
           </p>
         </div>
         <div className="mobile">
-          <PiDeviceMobileFill />
+            <PiDeviceMobileFill className="icon"/>
+      
           <h1>Mobile Development</h1>
           <p>
             I can help you build a mobile app using React Native. I can also
@@ -25,7 +26,7 @@ function Services() {
           </p>
         </div>
         <div className="backend">
-          <IoPlaySkipBackCircleSharp />
+            <IoPlaySkipBackCircleSharp className="icon" />
           <h1>Backend Development</h1>
           <p>
             I can help you build a scalable backend using Node.js. I can also
