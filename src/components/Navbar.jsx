@@ -7,6 +7,12 @@ function Navbar() {
 
   const handleclick = () => {
     setClicked(!clicked);
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+        setMenuOpen(!isMenuOpen);
+    }
   };
 
   return (
@@ -16,18 +22,18 @@ function Navbar() {
         <div>
           <ul id="navbar" className={clicked ? "navbar active" : "navbar"}>
             <li>
-              <a className="active" href="/">
+              <a  href="/">
                 Home
               </a>
             </li>
             <li>
-              <a href="about">About</a>
+              <a  href="about">About</a>
             </li>
             <li>
-              <a href="services">Services</a>
+              <a  href="services">Services</a>
             </li>
             <li>
-              <a href="contact">Contact</a>
+              <a  href="contact">Contact</a>
             </li>
           </ul>
         </div>

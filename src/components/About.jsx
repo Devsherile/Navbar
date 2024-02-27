@@ -24,7 +24,7 @@ function About() {
 
   return (
     <div id="about">
-        <img src="./images/about.jpg" alt="" width={500} height={500}/>
+      <img src="./images/about.jpg" alt="" />
       <div id="content">
         <div className="content">
           <h1>About Me</h1>
@@ -44,19 +44,23 @@ function About() {
           </p>
         </div>
         <div className="see">
-        <div
-        className="section-titles"
-        >
-        <h1 className="skills" onClick={() => toggleSection("skills")}>
-        Skills
-      </h1>
-      <h1 className="education" onClick={() => toggleSection("education")}>
-        Education
-      </h1>
-      <h1 className="experience" onClick={() => toggleSection("experience")}>
-        Experience
-      </h1>
-        </div>
+          <div className="section-titles">
+            <h1 className="skills" onClick={() => toggleSection("skills")}>
+              Skills
+            </h1>
+            <h1
+              className="education"
+              onClick={() => toggleSection("education")}
+            >
+              Education
+            </h1>
+            <h1
+              className="experience"
+              onClick={() => toggleSection("experience")}
+            >
+              Experience
+            </h1>
+          </div>
           {showSkills && (
             <ul>
               <li>JavaScript</li>
@@ -70,7 +74,6 @@ function About() {
             </ul>
           )}
 
-          
           {showEducation && (
             <p>
               Bachelor of Science in Software Engineering,
@@ -79,7 +82,6 @@ function About() {
             </p>
           )}
 
-          
           {showExperience && (
             <p>
               Volunteer Graphic Designer at Kecher Africa <br />
