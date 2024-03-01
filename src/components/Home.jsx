@@ -9,7 +9,7 @@ function Home() {
         </h3>
         <h1 className="h1">Hi,I'm Sherile <br></br> From Kenya </h1>
       </div>
-      <img src="./images/hm.png" alt=""
+      <img src="./images/abt.jpeg" alt=""
       
       />
     </div>
